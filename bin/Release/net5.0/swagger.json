@@ -1,0 +1,268 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "RocketElevatorsFoundationRESTAPI",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/interventions": {
+      "get": {
+        "tags": [
+          "Interventions"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Intervention"
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Interventions"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Intervention"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Intervention"
+            }
+          }
+        }
+      }
+    },
+    "/api/interventions/{id}": {
+      "get": {
+        "tags": [
+          "Interventions"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "$ref": "#/definitions/Intervention"
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Interventions"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Intervention"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Interventions"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/interventions/{status}": {
+      "get": {
+        "tags": [
+          "Interventions"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "status",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/Intervention"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/interventions/{id}/{status}": {
+      "put": {
+        "tags": [
+          "Interventions"
+        ],
+        "consumes": [
+          "application/json",
+          "text/json",
+          "application/*+json"
+        ],
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "type": "integer",
+            "format": "int32"
+          },
+          {
+            "in": "path",
+            "name": "status",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "in": "body",
+            "name": "body",
+            "schema": {
+              "$ref": "#/definitions/Intervention"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Intervention": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "author": {
+          "type": "string"
+        },
+        "start_date": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "end_date": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "result": {
+          "type": "string"
+        },
+        "report": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "customer_id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "building_id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "battery_id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "column_id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "elevator_id": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "employee_id": {
+          "format": "int32",
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

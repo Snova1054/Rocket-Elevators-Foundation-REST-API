@@ -1,0 +1,4 @@
+{
+    "appService.deploySubpath": "publish",
+    "appService.defaultWebAppToDeploy": "/subscriptions/b7e01162-3221-40f4-8c4e-d14260030063/resourceGroups/Rocket-REST-API-Ressource/providers/Microsoft.Web/sites/Rocket-REST-API"
+}
