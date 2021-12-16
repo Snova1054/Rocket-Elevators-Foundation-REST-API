@@ -1,9 +1,9 @@
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\RocketElevatorsFoundationRESTAPI.exe
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\RocketElevatorsRESTAPI.exe
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\appsettings.Development.json
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\appsettings.json
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\RocketElevatorsFoundationRESTAPI.dll
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\RocketElevatorsFoundationRESTAPI.runtimeconfig.json
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\RocketElevatorsFoundationRESTAPI.pdb
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\RocketElevatorsRESTAPI.dll
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\RocketElevatorsRESTAPI.runtimeconfig.json
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\RocketElevatorsRESTAPI.pdb
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\Humanizer.dll
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\Microsoft.Bcl.AsyncInterfaces.dll
@@ -137,4 +137,4 @@ C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\runtime
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\RocketElevatorsFoundationRESTAPI.deps.json
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\publish\RocketElevatorsRESTAPI.deps.json

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hin/9+SLuMipdr8i+dgbbdRrX7QZ/zn/IDuOlTsT+D2DGKtH/U9kVDirGhYy2zQzZ7nFjS6n32tQ047ZjnoT6Q==",
+  "dgSpecHash": "RUmx7DNk8fi67fs8+DeIGL2Nhyq2sWUEmhU32bpiHtvN4vfsdTIUlxv9YCOefMFa9N2lAUllZY8qyuRGJot3BA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\istar\\Documents\\vieoumort-REST-API\\Rocket-Elevators-Foundation-REST-API\\RocketElevatorsFoundationRESTAPI.csproj",
+  "projectFilePath": "C:\\Users\\istar\\Documents\\11-week\\RocketElevatorsRESTAPI\\RocketElevatorsRESTAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\istar\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\istar\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

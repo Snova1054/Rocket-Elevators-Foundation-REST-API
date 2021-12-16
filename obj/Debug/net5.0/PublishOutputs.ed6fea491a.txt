@@ -1,9 +1,9 @@
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\RocketElevatorsFoundationRESTAPI.exe
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\RocketElevatorsRESTAPI.exe
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\appsettings.Development.json
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\appsettings.json
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\RocketElevatorsFoundationRESTAPI.dll
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\RocketElevatorsFoundationRESTAPI.runtimeconfig.json
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\RocketElevatorsFoundationRESTAPI.pdb
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\RocketElevatorsRESTAPI.dll
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\RocketElevatorsRESTAPI.runtimeconfig.json
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\RocketElevatorsRESTAPI.pdb
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\Humanizer.dll
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\Microsoft.Bcl.AsyncInterfaces.dll
@@ -137,4 +137,4 @@ C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\RocketElevatorsFoundationRESTAPI.deps.json
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\bin\Debug\net5.0\publish\RocketElevatorsRESTAPI.deps.json

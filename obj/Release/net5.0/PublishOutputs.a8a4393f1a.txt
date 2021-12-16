@@ -1,14 +1,14 @@
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\RocketElevatorsFoundationRESTAPI.exe
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\RocketElevatorsRESTAPI.exe
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\publish\web.config
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\appsettings.Development.json
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\appsettings.json
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\publish\appsettings.Development.json
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\publish\appsettings.json
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\publish\RocketElevatorsFoundationRESTAPI.deps.json
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\publish\RocketElevatorsFoundationRESTAPI.runtimeconfig.json
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\RocketElevatorsFoundationRESTAPI.dll
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\RocketElevatorsFoundationRESTAPI.runtimeconfig.json
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\RocketElevatorsFoundationRESTAPI.pdb
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\publish\RocketElevatorsRESTAPI.deps.json
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\publish\RocketElevatorsRESTAPI.runtimeconfig.json
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\RocketElevatorsRESTAPI.dll
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\RocketElevatorsRESTAPI.runtimeconfig.json
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\RocketElevatorsRESTAPI.pdb
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\Humanizer.dll
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
@@ -142,4 +142,4 @@ C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\runtimes\win-x86\native\e_sqlite3.dll
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\RocketElevatorsFoundationRESTAPI.deps.json
+C:\Users\istar\Documents\ElevatorWeek8\Rocket-Elevators-REST-API\obj\Release\net5.0\PubTmp\Out\RocketElevatorsRESTAPI.deps.json

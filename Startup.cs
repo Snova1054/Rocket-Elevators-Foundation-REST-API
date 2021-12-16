@@ -12,10 +12,10 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
-using RocketElevatorsFoundationRESTAPI.Models;
+using RocketElevatorsRESTAPI.Models;
 using Pomelo.EntityFrameworkCore.MySql;
 
-namespace RocketElevatorsFoundationRESTAPI
+namespace RocketElevatorsRESTAPI
 {
     public class Startup
     {
@@ -38,7 +38,7 @@ namespace RocketElevatorsFoundationRESTAPI
            services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "RocketElevatorsFoundationRESTAPI", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "RocketElevatorsRESTAPI", Version = "v1" });
             });
         }
 
@@ -49,7 +49,7 @@ namespace RocketElevatorsFoundationRESTAPI
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "RocketElevatorsFoundationRESTAPI v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "RocketElevatorsRESTAPI v1"));
             }
             app.UseHttpsRedirection();
 
