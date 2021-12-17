@@ -44,9 +44,12 @@ namespace RocketElevatorsRESTAPI.Controllers
         public async Task<int> GetCustomerEmail (string email)
         {
             List<Customer> customersList = (await _context.customers.ToListAsync());
-            int customer_id = new int();
-            customer_id = (customersList.Find(customer => customer.email_of_the_company_contact == email)).id;
-            return customer_id; //Return the customer's id if the email is in the database, else returns 0
+            Customer customer = customersList.Find(customer => customer.email_of_the_company_contact == email);
+            if(customer == null)
+            {
+                return 0;
+            }
+            return customer.id; //Return the customer's id if the email is in the database, else returns 0
         }
 
         // PUT: api/Customers/5
