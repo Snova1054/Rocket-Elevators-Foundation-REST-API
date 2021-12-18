@@ -154,13 +154,23 @@ namespace RocketElevatorsFoundationFoundationRESTAPI.Controllers
 
         // POST: api/interventions
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
-        public async Task<ActionResult<Intervention>> PostIntervention(Intervention intervention)
+        // [HttpPost]////////////////// TEXT/PLAIN: ACCEPTE-MOI!
+        // public async Task<ActionResult<Intervention>> PostIntervention(Intervention intervention)
+        // {
+        //     ////////////////////////intervention : TRANSFORME MOI EN JASON
+        //     _context.interventions.Add(intervention);
+        //     await _context.SaveChangesAsync();
+
+        //     return CreatedAtAction("GetIntervention", new { id = intervention.id }, intervention);
+        // }        
+        [HttpPost]////////////////// TEXT/PLAIN: ACCEPTE-MOI!
+        public async Task <string> PostIntervention(Intervention intervention)
         {
+            ////////////////////////intervention : TRANSFORME MOI EN JASON
             _context.interventions.Add(intervention);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetIntervention", new { id = intervention.id }, intervention);
+            return "allo";
         }
 
         // DELETE: api/interventions/5
