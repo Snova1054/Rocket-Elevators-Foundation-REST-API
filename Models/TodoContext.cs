@@ -16,5 +16,7 @@ namespace RocketElevatorsRESTAPI.Models
         public DbSet<Lead> leads { get; set; }
         public DbSet<Customer> customers { get; set; }
         public DbSet<Intervention> interventions { get; set; }
+        public DbSet<Quote> quotes { get; set; }
+        public DbSet<Address> addresses { get; set; }
     }
 }

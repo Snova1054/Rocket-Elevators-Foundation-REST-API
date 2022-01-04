@@ -7701,25 +7701,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\istar\\.nuget\\packages\\": {},
+    "C:\\Users\\iStar\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\istar\\Documents\\11-week\\RocketElevatorsRESTAPI\\RocketElevatorsRESTAPI.csproj",
+      "projectUniqueName": "C:\\Users\\iStar\\Documents\\CodeBoxx-RocketElevator\\week-13\\Rocket-Elevators-Foundation-REST-API\\RocketElevatorsRESTAPI.csproj",
       "projectName": "RocketElevatorsRESTAPI",
-      "projectPath": "C:\\Users\\istar\\Documents\\11-week\\RocketElevatorsRESTAPI\\RocketElevatorsRESTAPI.csproj",
-      "packagesPath": "C:\\Users\\istar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\istar\\Documents\\11-week\\RocketElevatorsRESTAPI\\obj\\",
+      "projectPath": "C:\\Users\\iStar\\Documents\\CodeBoxx-RocketElevator\\week-13\\Rocket-Elevators-Foundation-REST-API\\RocketElevatorsRESTAPI.csproj",
+      "packagesPath": "C:\\Users\\iStar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\iStar\\Documents\\CodeBoxx-RocketElevator\\week-13\\Rocket-Elevators-Foundation-REST-API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\istar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\iStar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -7796,7 +7796,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

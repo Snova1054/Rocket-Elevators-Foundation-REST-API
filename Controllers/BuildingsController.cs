@@ -27,18 +27,41 @@ namespace RocketElevatorsRESTAPI.Controllers
         }
 
         // GET: api/Buildings/5
-        [HttpGet("{id:int}")]
-        public async Task<ActionResult<Building>> GetBuilding(int id)
-        {
-            var building = await _context.buildings.FindAsync(id);
+        // [HttpGet("{id:int}")]
+        // public async Task<ActionResult<Building>> GetBuilding(int id)
+        // {
+        //     var building = await _context.buildings.FindAsync(id);
 
-            if (building == null)
+        //     if (building == null)
+        //     {
+        //         return NotFound();
+        //     }
+
+        //     return building;
+        // }
+
+        [HttpGet("address/cities")]
+        public async Task<ActionResult<int>> GetBuilding()
+        {
+            var buildings = await _context.buildings.ToListAsync();
+            List<string> cities = new List<string>();
+            foreach (var b in buildings)
+            {
+                var address = await _context.addresses.FindAsync(b.address_id);
+                if(!cities.Contains(address.city)){
+                    cities.Add(address.city);
+                }
+            }
+
+            if (cities.Count == 0)
             {
                 return NotFound();
             }
 
-            return building;
+            return cities.Count;
         }
+
+
         [HttpGet("{status}")]
         public IEnumerable<Building> GetBuildingsIntervention(string status) 
         {
