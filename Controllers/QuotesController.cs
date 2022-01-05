@@ -28,7 +28,7 @@ namespace RocketElevatorsRESTAPI.Controllers
         }
 
         // GET: api/Quotes/5
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         public async Task<ActionResult<Quote>> GetQuote(int id)
         {
             var quote = await _context.quotes.FindAsync(id);
@@ -40,6 +40,19 @@ namespace RocketElevatorsRESTAPI.Controllers
 
             return quote;
         }
+        
+        [HttpGet("length")]
+        public async Task<int> GetQuotesLength()
+        {
+            int? quotes = (await _context.quotes.ToListAsync()).Count;
+
+            if (quotes == null)
+            {
+                return 0;
+            }
+            return Convert.ToInt32(quotes);
+        }
+
 
         // PUT: api/Quotes/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
