@@ -18,5 +18,6 @@ namespace RocketElevatorsRESTAPI.Models
         public DbSet<Intervention> interventions { get; set; }
         public DbSet<Quote> quotes { get; set; }
         public DbSet<Address> addresses { get; set; }
+        public DbSet<User> users { get; set; }
     }
 }

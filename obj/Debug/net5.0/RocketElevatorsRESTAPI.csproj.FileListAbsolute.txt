@@ -1143,7 +1143,6 @@ C:\Users\istar\Documents\11-week\RocketElevatorsRESTAPI\obj\Debug\net5.0\RocketE
 C:\Users\istar\Documents\11-week\RocketElevatorsRESTAPI\obj\Debug\net5.0\RocketElevatorsRESTAPI.genruntimeconfig.cache
 C:\Users\iStar\Documents\CodeBoxx-RocketElevator\week-13\Rocket-Elevators-Foundation-REST-API\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\iStar\Documents\CodeBoxx-RocketElevator\week-13\Rocket-Elevators-Foundation-REST-API\bin\Debug\net5.0\appsettings.json
-C:\Users\iStar\Documents\CodeBoxx-RocketElevator\week-13\Rocket-Elevators-Foundation-REST-API\bin\Debug\net5.0\Week8APIREST.postman_collection.json
 C:\Users\iStar\Documents\CodeBoxx-RocketElevator\week-13\Rocket-Elevators-Foundation-REST-API\bin\Debug\net5.0\publish\web.config
 C:\Users\iStar\Documents\CodeBoxx-RocketElevator\week-13\Rocket-Elevators-Foundation-REST-API\bin\Debug\net5.0\publish\appsettings.Development.json
 C:\Users\iStar\Documents\CodeBoxx-RocketElevator\week-13\Rocket-Elevators-Foundation-REST-API\bin\Debug\net5.0\publish\appsettings.json
