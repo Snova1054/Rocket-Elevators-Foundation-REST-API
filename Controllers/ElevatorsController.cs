@@ -45,6 +45,23 @@ namespace RocketElevatorsRESTAPI.Controllers
             List<Elevator> elevatorsList = await _context.elevators.ToListAsync();
             List<Elevator> filteredList = new List<Elevator>(); 
             filteredList = elevatorsList.Where(elevator => elevator.status == status).ToList();
+
+            if (filteredList == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return filteredList; 
+            }
+        }
+
+        [HttpGet("notoperational/all")]
+        public async Task<ActionResult<IEnumerable<Elevator>>> GetInterventionElevator ()
+        {
+            List<Elevator> elevatorsList = await _context.elevators.ToListAsync();
+            List<Elevator> filteredList = new List<Elevator>(); 
+            filteredList = elevatorsList.Where(elevator => elevator.status == "intervention" || elevator.status == "offline").ToList();
             
             if (filteredList == null)
             {
